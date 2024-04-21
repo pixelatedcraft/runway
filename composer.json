@@ -1,0 +1,17 @@
+{
+    "name": "pixelatedcraft/runway",
+    "description": "A Laravel docker setup",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pixelatedcraft\\Runway\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kennith Leung",
+            "email": "kennith.leung@gmail.com"
+        }
+    ],
+    "require": {}
+}
