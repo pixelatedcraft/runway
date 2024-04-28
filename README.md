@@ -2,6 +2,13 @@
 
 A Laravel package to launch a preconfigured docker container for  Laravel application.
 
+## Installation
+
+```
+composer require --dev pixelatedcraft/runway
+php artisan vendor:publish --provider=Pixelatedcraft\\Runway\\RunwayServiceProvider
+```
+
 ## Usage
 
 Start the web application container:
