@@ -5,7 +5,7 @@ namespace Pixelatedcraft\Runway\Console;
 use Illuminate\Console\Command;
 use Symfony\Component\Process\Process;
 
-class Startcommand extends Command
+class StartCommand extends Command
 {
     protected $signature = 'runway:start';
 
