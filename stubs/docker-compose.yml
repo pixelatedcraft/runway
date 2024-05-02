@@ -22,3 +22,8 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=${DB_PASSWORD:-secret}
       - MYSQL_DATABASE=${DB_DATABASE:-laravel}
+  valkey:
+    image: "valkey/valkey:7.2"
+    container_name: ${APP_NAME}-valkey
+    ports:
+      - "6379:6379"
